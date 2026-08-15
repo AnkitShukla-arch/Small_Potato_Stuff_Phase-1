@@ -1,0 +1,1528 @@
+{
+  "seed": 20260816,
+  "count": 150,
+  "conflict_plan": {
+    "approved_but_closed": [
+      "Lendi College of Engineering and Technology, Hubballi",
+      "National Institute of Technology, Junagadh",
+      "BMS Polytechnic, Bhavnagar",
+      "Government College of Engineering, Indore",
+      "Government Engineering College, Warangal"
+    ],
+    "approved_but_unapproved_listed": [
+      "SRM Institute of Engineering and Technology, Kolkata",
+      "Vaagdevi College of Engineering and Technology, Sambalpur",
+      "Chaitanya College of Engineering, Belagavi"
+    ],
+    "rejected_with_courses": [
+      "Kalasalingam College of Engineering and Technology, Karimnagar",
+      "Amrita College of Engineering, Nizamabad"
+    ],
+    "under_review_but_nba_accredited": [
+      "Raghu Institute of Technology, Bikaner",
+      "National Institute of Technology, Siliguri"
+    ]
+  },
+  "institutes": [
+    {
+      "id": "INST_000",
+      "name": "Kongu Polytechnic, Vizianagaram",
+      "state": "Andhra Pradesh",
+      "district": "Vizianagaram",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1956,
+      "aicte_code": "6-8745388503"
+    },
+    {
+      "id": "INST_001",
+      "name": "Government Polytechnic, Karimnagar",
+      "state": "Telangana",
+      "district": "Karimnagar",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1996,
+      "aicte_code": "8-2715130591"
+    },
+    {
+      "id": "INST_002",
+      "name": "Raghu Institute of Technology, Coimbatore",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1999,
+      "aicte_code": "5-2765669222"
+    },
+    {
+      "id": "INST_003",
+      "name": "Lendi College of Engineering and Technology, Hubballi",
+      "state": "Karnataka",
+      "district": "Hubballi",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1975,
+      "aicte_code": "6-9781036339"
+    },
+    {
+      "id": "INST_004",
+      "name": "Guru Nanak College of Engineering and Technology, Aurangabad",
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2006,
+      "aicte_code": "6-3265590430"
+    },
+    {
+      "id": "INST_005",
+      "name": "Vishwakarma Engineering College, Bhavnagar",
+      "state": "Gujarat",
+      "district": "Bhavnagar",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1985,
+      "aicte_code": "1-8109511998"
+    },
+    {
+      "id": "INST_006",
+      "name": "Siddhartha Polytechnic, Lucknow",
+      "state": "Uttar Pradesh",
+      "district": "Lucknow",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2018,
+      "aicte_code": "3-1363756576"
+    },
+    {
+      "id": "INST_007",
+      "name": "Raghu Institute of Technology, Bikaner",
+      "state": "Rajasthan",
+      "district": "Bikaner",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1985,
+      "aicte_code": "4-3272352734"
+    },
+    {
+      "id": "INST_008",
+      "name": "Sri Venkateswara Engineering College, Jabalpur",
+      "state": "Madhya Pradesh",
+      "district": "Jabalpur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2001,
+      "aicte_code": "3-9272361160"
+    },
+    {
+      "id": "INST_009",
+      "name": "SRM Institute of Engineering and Technology, Kolkata",
+      "state": "West Bengal",
+      "district": "Kolkata",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1998,
+      "aicte_code": "5-2559905573"
+    },
+    {
+      "id": "INST_010",
+      "name": "Bharat Engineering College, Bhubaneswar",
+      "state": "Odisha",
+      "district": "Bhubaneswar",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1977,
+      "aicte_code": "7-8816337307"
+    },
+    {
+      "id": "INST_011",
+      "name": "PSG Institute of Technology and Science, Ludhiana",
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1987,
+      "aicte_code": "3-7511431738"
+    },
+    {
+      "id": "INST_012",
+      "name": "Mahatma Gandhi Institute of Technology, Kadapa",
+      "state": "Andhra Pradesh",
+      "district": "Kadapa",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1998,
+      "aicte_code": "5-6474711306"
+    },
+    {
+      "id": "INST_013",
+      "name": "Kalasalingam College of Engineering and Technology, Karimnagar",
+      "state": "Telangana",
+      "district": "Karimnagar",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 1966,
+      "aicte_code": "6-3854467633"
+    },
+    {
+      "id": "INST_014",
+      "name": "Manipal Institute of Technology, Tirunelveli",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2002,
+      "aicte_code": "6-2416833623"
+    },
+    {
+      "id": "INST_015",
+      "name": "Manipal Institute of Technology, Ballari",
+      "state": "Karnataka",
+      "district": "Ballari",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2006,
+      "aicte_code": "8-1298415361"
+    },
+    {
+      "id": "INST_016",
+      "name": "Sri Venkateswara Institute of Technology and Science, Kolhapur",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1960,
+      "aicte_code": "8-7931215048"
+    },
+    {
+      "id": "INST_017",
+      "name": "National Institute of Technology, Junagadh",
+      "state": "Gujarat",
+      "district": "Junagadh",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 2001,
+      "aicte_code": "1-3962595334"
+    },
+    {
+      "id": "INST_018",
+      "name": "Kumaraguru Engineering College, Kanpur",
+      "state": "Uttar Pradesh",
+      "district": "Kanpur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1991,
+      "aicte_code": "8-5499287720"
+    },
+    {
+      "id": "INST_019",
+      "name": "Government Polytechnic, Jaipur",
+      "state": "Rajasthan",
+      "district": "Jaipur",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1982,
+      "aicte_code": "4-8198922921"
+    },
+    {
+      "id": "INST_020",
+      "name": "National Institute of Technology, Indore",
+      "state": "Madhya Pradesh",
+      "district": "Indore",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 2011,
+      "aicte_code": "7-6603616579"
+    },
+    {
+      "id": "INST_021",
+      "name": "Vishwakarma Institute of Technology and Science, Durgapur",
+      "state": "West Bengal",
+      "district": "Durgapur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1999,
+      "aicte_code": "5-6992085185"
+    },
+    {
+      "id": "INST_022",
+      "name": "Vaagdevi College of Engineering and Technology, Sambalpur",
+      "state": "Odisha",
+      "district": "Sambalpur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1983,
+      "aicte_code": "2-5139570174"
+    },
+    {
+      "id": "INST_023",
+      "name": "Government Polytechnic, Bathinda",
+      "state": "Punjab",
+      "district": "Bathinda",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1998,
+      "aicte_code": "8-5887911429"
+    },
+    {
+      "id": "INST_024",
+      "name": "RV Engineering College, Guntur",
+      "state": "Andhra Pradesh",
+      "district": "Guntur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1975,
+      "aicte_code": "4-3802550603"
+    },
+    {
+      "id": "INST_025",
+      "name": "Sreyas College of Engineering and Technology, Karimnagar",
+      "state": "Telangana",
+      "district": "Karimnagar",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1958,
+      "aicte_code": "4-1910452768"
+    },
+    {
+      "id": "INST_026",
+      "name": "Government College of Engineering, Tirunelveli",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2011,
+      "aicte_code": "2-9663945410"
+    },
+    {
+      "id": "INST_027",
+      "name": "Government Engineering College, Ballari",
+      "state": "Karnataka",
+      "district": "Ballari",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2003,
+      "aicte_code": "3-4406021479"
+    },
+    {
+      "id": "INST_028",
+      "name": "Aditya College of Engineering and Technology, Nashik",
+      "state": "Maharashtra",
+      "district": "Nashik",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 2003,
+      "aicte_code": "2-1628561522"
+    },
+    {
+      "id": "INST_029",
+      "name": "BMS Polytechnic, Bhavnagar",
+      "state": "Gujarat",
+      "district": "Bhavnagar",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1962,
+      "aicte_code": "2-8648215095"
+    },
+    {
+      "id": "INST_030",
+      "name": "Bapatla Institute of Engineering and Technology, Meerut",
+      "state": "Uttar Pradesh",
+      "district": "Meerut",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1979,
+      "aicte_code": "6-8714711466"
+    },
+    {
+      "id": "INST_031",
+      "name": "Government Engineering College, Bikaner",
+      "state": "Rajasthan",
+      "district": "Bikaner",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1974,
+      "aicte_code": "5-6062806858"
+    },
+    {
+      "id": "INST_032",
+      "name": "Sreenidhi Institute of Technology, Jabalpur",
+      "state": "Madhya Pradesh",
+      "district": "Jabalpur",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 1963,
+      "aicte_code": "5-8843276916"
+    },
+    {
+      "id": "INST_033",
+      "name": "National Institute of Technology, Siliguri",
+      "state": "West Bengal",
+      "district": "Siliguri",
+      "type": "Autonomous",
+      "approval_status": "Under Review",
+      "year_established": 2008,
+      "aicte_code": "6-6927971721"
+    },
+    {
+      "id": "INST_034",
+      "name": "Sinhgad College of Engineering and Technology, Berhampur",
+      "state": "Odisha",
+      "district": "Berhampur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1973,
+      "aicte_code": "3-1157439378"
+    },
+    {
+      "id": "INST_035",
+      "name": "Malla Reddy Polytechnic, Patiala",
+      "state": "Punjab",
+      "district": "Patiala",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1970,
+      "aicte_code": "5-8095085692"
+    },
+    {
+      "id": "INST_036",
+      "name": "Government College of Engineering, Kurnool",
+      "state": "Andhra Pradesh",
+      "district": "Kurnool",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2011,
+      "aicte_code": "2-9816619637"
+    },
+    {
+      "id": "INST_037",
+      "name": "Amrita College of Engineering, Nizamabad",
+      "state": "Telangana",
+      "district": "Nizamabad",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 2017,
+      "aicte_code": "3-1176430986"
+    },
+    {
+      "id": "INST_038",
+      "name": "National Institute of Technology, Vellore",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 1996,
+      "aicte_code": "6-7347183532"
+    },
+    {
+      "id": "INST_039",
+      "name": "NMAM Polytechnic, Belagavi",
+      "state": "Karnataka",
+      "district": "Belagavi",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1968,
+      "aicte_code": "6-7106520321"
+    },
+    {
+      "id": "INST_040",
+      "name": "Sree Dattha College of Engineering and Technology, Kolhapur",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 1984,
+      "aicte_code": "8-5435464507"
+    },
+    {
+      "id": "INST_041",
+      "name": "Sreyas Engineering College, Vadodara",
+      "state": "Gujarat",
+      "district": "Vadodara",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1964,
+      "aicte_code": "7-5857042021"
+    },
+    {
+      "id": "INST_042",
+      "name": "Thiagarajar College of Engineering and Technology, Kanpur",
+      "state": "Uttar Pradesh",
+      "district": "Kanpur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1994,
+      "aicte_code": "6-6131434909"
+    },
+    {
+      "id": "INST_043",
+      "name": "Lokmanya Engineering College, Bikaner",
+      "state": "Rajasthan",
+      "district": "Bikaner",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1960,
+      "aicte_code": "6-2508140568"
+    },
+    {
+      "id": "INST_044",
+      "name": "Government College of Engineering, Indore",
+      "state": "Madhya Pradesh",
+      "district": "Indore",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1956,
+      "aicte_code": "7-6337725760"
+    },
+    {
+      "id": "INST_045",
+      "name": "National Institute of Technology, Kharagpur",
+      "state": "West Bengal",
+      "district": "Kharagpur",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 1976,
+      "aicte_code": "7-1149394290"
+    },
+    {
+      "id": "INST_046",
+      "name": "Lokmanya Institute of Engineering and Technology, Berhampur",
+      "state": "Odisha",
+      "district": "Berhampur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2012,
+      "aicte_code": "8-4723088618"
+    },
+    {
+      "id": "INST_047",
+      "name": "Karunya Institute of Engineering and Technology, Amritsar",
+      "state": "Punjab",
+      "district": "Amritsar",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2013,
+      "aicte_code": "4-9744678650"
+    },
+    {
+      "id": "INST_048",
+      "name": "Government Engineering College, Guntur",
+      "state": "Andhra Pradesh",
+      "district": "Kurnool",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2007,
+      "aicte_code": "1-9562243336"
+    },
+    {
+      "id": "INST_049",
+      "name": "Andhra Engineering College, Nizamabad",
+      "state": "Telangana",
+      "district": "Nizamabad",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 2008,
+      "aicte_code": "1-7509447351"
+    },
+    {
+      "id": "INST_050",
+      "name": "Anurag Institute of Technology, Salem",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1990,
+      "aicte_code": "4-5351072882"
+    },
+    {
+      "id": "INST_051",
+      "name": "Chaitanya College of Engineering, Belagavi",
+      "state": "Karnataka",
+      "district": "Belagavi",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2020,
+      "aicte_code": "8-6877384201"
+    },
+    {
+      "id": "INST_052",
+      "name": "Lendi Polytechnic, Kolhapur",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1972,
+      "aicte_code": "1-3060966660"
+    },
+    {
+      "id": "INST_053",
+      "name": "Bapatla Polytechnic, Rajkot",
+      "state": "Gujarat",
+      "district": "Rajkot",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1971,
+      "aicte_code": "8-5571816938"
+    },
+    {
+      "id": "INST_054",
+      "name": "Government Polytechnic, Agra",
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1955,
+      "aicte_code": "3-2231110187"
+    },
+    {
+      "id": "INST_055",
+      "name": "Government Polytechnic, Udaipur",
+      "state": "Rajasthan",
+      "district": "Udaipur",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1991,
+      "aicte_code": "4-6915850245"
+    },
+    {
+      "id": "INST_056",
+      "name": "National Institute of Technology, Ujjain",
+      "state": "Madhya Pradesh",
+      "district": "Ujjain",
+      "type": "Autonomous",
+      "approval_status": "Under Review",
+      "year_established": 1997,
+      "aicte_code": "7-6190257047"
+    },
+    {
+      "id": "INST_057",
+      "name": "Dr. B.R. Ambedkar Institute of Engineering and Technology, Kolkata",
+      "state": "West Bengal",
+      "district": "Kolkata",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2016,
+      "aicte_code": "7-4010725221"
+    },
+    {
+      "id": "INST_058",
+      "name": "K.S.R. College of Engineering and Technology, Cuttack",
+      "state": "Odisha",
+      "district": "Cuttack",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1977,
+      "aicte_code": "5-7075398059"
+    },
+    {
+      "id": "INST_059",
+      "name": "Sree Dattha College of Engineering and Technology, Ludhiana",
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2005,
+      "aicte_code": "8-8582964864"
+    },
+    {
+      "id": "INST_060",
+      "name": "Lokmanya College of Engineering and Technology, Kadapa",
+      "state": "Andhra Pradesh",
+      "district": "Kadapa",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 1990,
+      "aicte_code": "6-5440419489"
+    },
+    {
+      "id": "INST_061",
+      "name": "Government Engineering College, Warangal",
+      "state": "Telangana",
+      "district": "Warangal",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2010,
+      "aicte_code": "3-1770142108"
+    },
+    {
+      "id": "INST_062",
+      "name": "Government Engineering College, Vellore",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "type": "Govt",
+      "approval_status": "Rejected",
+      "year_established": 2006,
+      "aicte_code": "4-9078153677"
+    },
+    {
+      "id": "INST_063",
+      "name": "Mahatma Gandhi Institute of Engineering and Technology, Belagavi",
+      "state": "Karnataka",
+      "district": "Belagavi",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1972,
+      "aicte_code": "7-5699645617"
+    },
+    {
+      "id": "INST_064",
+      "name": "Sree Engineering College, Kolhapur",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2012,
+      "aicte_code": "1-4897056219"
+    },
+    {
+      "id": "INST_065",
+      "name": "Sri Indu College of Engineering, Junagadh",
+      "state": "Gujarat",
+      "district": "Junagadh",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2014,
+      "aicte_code": "3-3444835086"
+    },
+    {
+      "id": "INST_066",
+      "name": "Mahatma Gandhi Institute of Technology and Science, Varanasi",
+      "state": "Uttar Pradesh",
+      "district": "Varanasi",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1971,
+      "aicte_code": "3-8755855833"
+    },
+    {
+      "id": "INST_067",
+      "name": "Government Engineering College, Kota",
+      "state": "Rajasthan",
+      "district": "Kota",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2001,
+      "aicte_code": "8-9849035924"
+    },
+    {
+      "id": "INST_068",
+      "name": "Government Engineering College, Jabalpur",
+      "state": "Madhya Pradesh",
+      "district": "Jabalpur",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1958,
+      "aicte_code": "2-1296447441"
+    },
+    {
+      "id": "INST_069",
+      "name": "Lendi College of Engineering and Technology, Siliguri",
+      "state": "West Bengal",
+      "district": "Kharagpur",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 1957,
+      "aicte_code": "2-6203147357"
+    },
+    {
+      "id": "INST_070",
+      "name": "National Institute of Technology, Bhubaneswar",
+      "state": "Odisha",
+      "district": "Bhubaneswar",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 1965,
+      "aicte_code": "4-1175299605"
+    },
+    {
+      "id": "INST_071",
+      "name": "Vignan College of Engineering and Technology, Jalandhar",
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2002,
+      "aicte_code": "6-7300664250"
+    },
+    {
+      "id": "INST_072",
+      "name": "National Institute of Technology, Anantapur",
+      "state": "Andhra Pradesh",
+      "district": "Anantapur",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 1965,
+      "aicte_code": "3-5414168498"
+    },
+    {
+      "id": "INST_073",
+      "name": "Galgotias Institute of Engineering and Technology, Adilabad",
+      "state": "Telangana",
+      "district": "Adilabad",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2015,
+      "aicte_code": "6-5881105470"
+    },
+    {
+      "id": "INST_074",
+      "name": "Aditya Institute of Engineering and Technology, Salem",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1972,
+      "aicte_code": "1-8099311988"
+    },
+    {
+      "id": "INST_075",
+      "name": "Sinhgad Engineering College, Belagavi",
+      "state": "Karnataka",
+      "district": "Belagavi",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 1987,
+      "aicte_code": "6-7490604574"
+    },
+    {
+      "id": "INST_076",
+      "name": "Government Engineering College, Solapur",
+      "state": "Maharashtra",
+      "district": "Solapur",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2002,
+      "aicte_code": "6-4754080181"
+    },
+    {
+      "id": "INST_077",
+      "name": "Sardar Engineering College, Junagadh",
+      "state": "Gujarat",
+      "district": "Junagadh",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 1964,
+      "aicte_code": "7-1005084249"
+    },
+    {
+      "id": "INST_078",
+      "name": "Lokmanya Institute of Engineering and Technology, Agra",
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1998,
+      "aicte_code": "1-3709107025"
+    },
+    {
+      "id": "INST_079",
+      "name": "Vignan Polytechnic, Jaipur",
+      "state": "Rajasthan",
+      "district": "Jaipur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1957,
+      "aicte_code": "3-4818632713"
+    },
+    {
+      "id": "INST_080",
+      "name": "Government Polytechnic, Jabalpur",
+      "state": "Madhya Pradesh",
+      "district": "Jabalpur",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1976,
+      "aicte_code": "1-3305808511"
+    },
+    {
+      "id": "INST_081",
+      "name": "Andhra Institute of Technology and Science, Howrah",
+      "state": "West Bengal",
+      "district": "Howrah",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1974,
+      "aicte_code": "7-9482007998"
+    },
+    {
+      "id": "INST_082",
+      "name": "Government Polytechnic, Rourkela",
+      "state": "Odisha",
+      "district": "Rourkela",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2002,
+      "aicte_code": "1-8826182998"
+    },
+    {
+      "id": "INST_083",
+      "name": "Geethanjali Engineering College, Amritsar",
+      "state": "Punjab",
+      "district": "Amritsar",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1973,
+      "aicte_code": "8-7211110653"
+    },
+    {
+      "id": "INST_084",
+      "name": "National Institute of Technology, Guntur",
+      "state": "Andhra Pradesh",
+      "district": "Guntur",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 2000,
+      "aicte_code": "6-5197545328"
+    },
+    {
+      "id": "INST_085",
+      "name": "Government Engineering College, Khammam",
+      "state": "Telangana",
+      "district": "Khammam",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2014,
+      "aicte_code": "1-4300450970"
+    },
+    {
+      "id": "INST_086",
+      "name": "Government College of Engineering, Coimbatore",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "type": "Govt",
+      "approval_status": "Under Review",
+      "year_established": 1970,
+      "aicte_code": "5-1947757220"
+    },
+    {
+      "id": "INST_087",
+      "name": "SRM College of Engineering, Hubballi",
+      "state": "Karnataka",
+      "district": "Hubballi",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1984,
+      "aicte_code": "5-2599084041"
+    },
+    {
+      "id": "INST_088",
+      "name": "Sreenidhi College of Engineering, Kolhapur",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1958,
+      "aicte_code": "6-1242928340"
+    },
+    {
+      "id": "INST_089",
+      "name": "Government Engineering College, Bhavnagar",
+      "state": "Gujarat",
+      "district": "Bhavnagar",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1985,
+      "aicte_code": "4-5332410918"
+    },
+    {
+      "id": "INST_090",
+      "name": "Lokmanya Polytechnic, Varanasi",
+      "state": "Uttar Pradesh",
+      "district": "Varanasi",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1973,
+      "aicte_code": "1-6743791051"
+    },
+    {
+      "id": "INST_091",
+      "name": "Sree College of Engineering, Jodhpur",
+      "state": "Rajasthan",
+      "district": "Jodhpur",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1988,
+      "aicte_code": "8-4711900506"
+    },
+    {
+      "id": "INST_092",
+      "name": "Karunya Institute of Engineering and Technology, Bhopal",
+      "state": "Madhya Pradesh",
+      "district": "Bhopal",
+      "type": "Autonomous",
+      "approval_status": "Under Review",
+      "year_established": 2007,
+      "aicte_code": "6-6742833836"
+    },
+    {
+      "id": "INST_093",
+      "name": "Vaagdevi College of Engineering and Technology, Kolkata",
+      "state": "West Bengal",
+      "district": "Kolkata",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 1999,
+      "aicte_code": "4-9110159686"
+    },
+    {
+      "id": "INST_094",
+      "name": "Government College of Engineering, Rourkela",
+      "state": "Odisha",
+      "district": "Rourkela",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1997,
+      "aicte_code": "4-2163012627"
+    },
+    {
+      "id": "INST_095",
+      "name": "Government Engineering College, Amritsar",
+      "state": "Punjab",
+      "district": "Bathinda",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1955,
+      "aicte_code": "2-9182824218"
+    },
+    {
+      "id": "INST_096",
+      "name": "Bharat Polytechnic, Guntur",
+      "state": "Andhra Pradesh",
+      "district": "Guntur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1971,
+      "aicte_code": "8-7778213721"
+    },
+    {
+      "id": "INST_097",
+      "name": "St. Mary's Institute of Technology and Science, Khammam",
+      "state": "Telangana",
+      "district": "Khammam",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1966,
+      "aicte_code": "3-1137122373"
+    },
+    {
+      "id": "INST_098",
+      "name": "Government Polytechnic, Salem",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2011,
+      "aicte_code": "2-7618955984"
+    },
+    {
+      "id": "INST_099",
+      "name": "Geethanjali Polytechnic, Mysuru",
+      "state": "Karnataka",
+      "district": "Mysuru",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1981,
+      "aicte_code": "5-6592847441"
+    },
+    {
+      "id": "INST_100",
+      "name": "Kakatiya College of Engineering and Technology, Kolhapur",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1957,
+      "aicte_code": "7-1091365168"
+    },
+    {
+      "id": "INST_101",
+      "name": "Sardar Institute of Technology, Surat",
+      "state": "Gujarat",
+      "district": "Surat",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1961,
+      "aicte_code": "4-1503389776"
+    },
+    {
+      "id": "INST_102",
+      "name": "Karunya Engineering College, Agra",
+      "state": "Uttar Pradesh",
+      "district": "Agra",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 1989,
+      "aicte_code": "4-5423850804"
+    },
+    {
+      "id": "INST_103",
+      "name": "National Institute of Technology, Udaipur",
+      "state": "Rajasthan",
+      "district": "Udaipur",
+      "type": "Autonomous",
+      "approval_status": "Under Review",
+      "year_established": 2003,
+      "aicte_code": "4-1278442444"
+    },
+    {
+      "id": "INST_104",
+      "name": "Ideal Institute of Engineering and Technology, Indore",
+      "state": "Madhya Pradesh",
+      "district": "Indore",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2011,
+      "aicte_code": "3-4923360262"
+    },
+    {
+      "id": "INST_105",
+      "name": "Kakatiya Institute of Technology and Science, Howrah",
+      "state": "West Bengal",
+      "district": "Howrah",
+      "type": "Autonomous",
+      "approval_status": "Under Review",
+      "year_established": 1969,
+      "aicte_code": "8-1013785466"
+    },
+    {
+      "id": "INST_106",
+      "name": "Lendi College of Engineering and Technology, Sambalpur",
+      "state": "Odisha",
+      "district": "Bhubaneswar",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 2013,
+      "aicte_code": "6-7969112213"
+    },
+    {
+      "id": "INST_107",
+      "name": "Vignan Polytechnic, Ludhiana",
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1968,
+      "aicte_code": "3-6064028300"
+    },
+    {
+      "id": "INST_108",
+      "name": "Sri Sathya Sai Engineering College, Vizianagaram",
+      "state": "Andhra Pradesh",
+      "district": "Vizianagaram",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1970,
+      "aicte_code": "2-6479631892"
+    },
+    {
+      "id": "INST_109",
+      "name": "Gokaraju Institute of Technology and Science, Warangal",
+      "state": "Telangana",
+      "district": "Warangal",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 1955,
+      "aicte_code": "1-5616497807"
+    },
+    {
+      "id": "INST_110",
+      "name": "Gokaraju Institute of Technology, Tirunelveli",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 1960,
+      "aicte_code": "1-7930980996"
+    },
+    {
+      "id": "INST_111",
+      "name": "Sri Indu Institute of Engineering and Technology, Davanagere",
+      "state": "Karnataka",
+      "district": "Davanagere",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1973,
+      "aicte_code": "5-7606691406"
+    },
+    {
+      "id": "INST_112",
+      "name": "Anurag Institute of Engineering and Technology, Aurangabad",
+      "state": "Maharashtra",
+      "district": "Aurangabad",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1957,
+      "aicte_code": "1-9074043981"
+    },
+    {
+      "id": "INST_113",
+      "name": "Sri Sathya Sai College of Engineering, Rajkot",
+      "state": "Gujarat",
+      "district": "Rajkot",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 2001,
+      "aicte_code": "1-5789365358"
+    },
+    {
+      "id": "INST_114",
+      "name": "Lokmanya Engineering College, Meerut",
+      "state": "Uttar Pradesh",
+      "district": "Meerut",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 1992,
+      "aicte_code": "4-5371760190"
+    },
+    {
+      "id": "INST_115",
+      "name": "Raghu Polytechnic, Kota",
+      "state": "Rajasthan",
+      "district": "Kota",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 2019,
+      "aicte_code": "6-7293711714"
+    },
+    {
+      "id": "INST_116",
+      "name": "National Institute of Technology, Jabalpur",
+      "state": "Madhya Pradesh",
+      "district": "Indore",
+      "type": "Autonomous",
+      "approval_status": "Under Review",
+      "year_established": 2014,
+      "aicte_code": "2-2904909764"
+    },
+    {
+      "id": "INST_117",
+      "name": "Government Polytechnic, Howrah",
+      "state": "West Bengal",
+      "district": "Howrah",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2013,
+      "aicte_code": "6-5928638669"
+    },
+    {
+      "id": "INST_118",
+      "name": "National Institute of Technology, Berhampur",
+      "state": "Odisha",
+      "district": "Berhampur",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 1995,
+      "aicte_code": "3-7577871384"
+    },
+    {
+      "id": "INST_119",
+      "name": "RV Institute of Technology, Jalandhar",
+      "state": "Punjab",
+      "district": "Jalandhar",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1974,
+      "aicte_code": "1-2560312975"
+    },
+    {
+      "id": "INST_120",
+      "name": "Kalasalingam Polytechnic, Anantapur",
+      "state": "Andhra Pradesh",
+      "district": "Anantapur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1986,
+      "aicte_code": "7-3379771339"
+    },
+    {
+      "id": "INST_121",
+      "name": "Government College of Engineering, Warangal",
+      "state": "Telangana",
+      "district": "Warangal",
+      "type": "Govt",
+      "approval_status": "Under Review",
+      "year_established": 1957,
+      "aicte_code": "6-2761440817"
+    },
+    {
+      "id": "INST_122",
+      "name": "Government Polytechnic, Vellore",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "type": "Govt",
+      "approval_status": "Under Review",
+      "year_established": 2007,
+      "aicte_code": "2-9831444830"
+    },
+    {
+      "id": "INST_123",
+      "name": "Ideal Institute of Technology and Science, Davanagere",
+      "state": "Karnataka",
+      "district": "Davanagere",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1979,
+      "aicte_code": "7-5750506676"
+    },
+    {
+      "id": "INST_124",
+      "name": "NMAM Engineering College, Solapur",
+      "state": "Maharashtra",
+      "district": "Solapur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1955,
+      "aicte_code": "8-5741626003"
+    },
+    {
+      "id": "INST_125",
+      "name": "Government College of Engineering, Junagadh",
+      "state": "Gujarat",
+      "district": "Junagadh",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1984,
+      "aicte_code": "6-1183903152"
+    },
+    {
+      "id": "INST_126",
+      "name": "Kalasalingam Polytechnic, Varanasi",
+      "state": "Uttar Pradesh",
+      "district": "Varanasi",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1982,
+      "aicte_code": "1-5753890348"
+    },
+    {
+      "id": "INST_127",
+      "name": "Andhra Institute of Technology and Science, Udaipur",
+      "state": "Rajasthan",
+      "district": "Udaipur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1997,
+      "aicte_code": "6-9895159095"
+    },
+    {
+      "id": "INST_128",
+      "name": "Thiagarajar Engineering College, Ujjain",
+      "state": "Madhya Pradesh",
+      "district": "Ujjain",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 1958,
+      "aicte_code": "2-6600911029"
+    },
+    {
+      "id": "INST_129",
+      "name": "Government Engineering College, Siliguri",
+      "state": "West Bengal",
+      "district": "Siliguri",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2000,
+      "aicte_code": "6-6939829462"
+    },
+    {
+      "id": "INST_130",
+      "name": "Kumaraguru College of Engineering, Sambalpur",
+      "state": "Odisha",
+      "district": "Sambalpur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1999,
+      "aicte_code": "6-7659030646"
+    },
+    {
+      "id": "INST_131",
+      "name": "Bharat Institute of Technology, Bathinda",
+      "state": "Punjab",
+      "district": "Bathinda",
+      "type": "Private",
+      "approval_status": "Rejected",
+      "year_established": 2005,
+      "aicte_code": "4-3933416071"
+    },
+    {
+      "id": "INST_132",
+      "name": "Government Polytechnic, Kadapa",
+      "state": "Andhra Pradesh",
+      "district": "Kadapa",
+      "type": "Govt",
+      "approval_status": "Under Review",
+      "year_established": 1956,
+      "aicte_code": "4-2410308967"
+    },
+    {
+      "id": "INST_133",
+      "name": "Sri Indu Institute of Technology and Science, Karimnagar",
+      "state": "Telangana",
+      "district": "Karimnagar",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1989,
+      "aicte_code": "7-9214038128"
+    },
+    {
+      "id": "INST_134",
+      "name": "Vishwakarma College of Engineering and Technology, Thanjavur",
+      "state": "Tamil Nadu",
+      "district": "Thanjavur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1969,
+      "aicte_code": "4-7041766367"
+    },
+    {
+      "id": "INST_135",
+      "name": "National Institute of Technology, Belagavi",
+      "state": "Karnataka",
+      "district": "Belagavi",
+      "type": "Autonomous",
+      "approval_status": "Under Review",
+      "year_established": 2006,
+      "aicte_code": "6-5967145489"
+    },
+    {
+      "id": "INST_136",
+      "name": "Srinivasa Engineering College, Kolhapur",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1974,
+      "aicte_code": "6-1387138510"
+    },
+    {
+      "id": "INST_137",
+      "name": "Thapar Institute of Engineering and Technology, Junagadh",
+      "state": "Gujarat",
+      "district": "Junagadh",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1959,
+      "aicte_code": "2-7295792166"
+    },
+    {
+      "id": "INST_138",
+      "name": "Ideal Institute of Engineering and Technology, Kanpur",
+      "state": "Uttar Pradesh",
+      "district": "Kanpur",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1975,
+      "aicte_code": "4-9725340935"
+    },
+    {
+      "id": "INST_139",
+      "name": "St. Mary's College of Engineering and Technology, Kota",
+      "state": "Rajasthan",
+      "district": "Kota",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 2010,
+      "aicte_code": "3-4344430418"
+    },
+    {
+      "id": "INST_140",
+      "name": "K.S.R. Institute of Engineering and Technology, Jabalpur",
+      "state": "Madhya Pradesh",
+      "district": "Ujjain",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 2007,
+      "aicte_code": "5-3309911901"
+    },
+    {
+      "id": "INST_141",
+      "name": "Matrusri College of Engineering and Technology, Howrah",
+      "state": "West Bengal",
+      "district": "Howrah",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1956,
+      "aicte_code": "7-6756252974"
+    },
+    {
+      "id": "INST_142",
+      "name": "Government Polytechnic, Cuttack",
+      "state": "Odisha",
+      "district": "Cuttack",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 2000,
+      "aicte_code": "4-4830502409"
+    },
+    {
+      "id": "INST_143",
+      "name": "Siddhartha College of Engineering, Ludhiana",
+      "state": "Punjab",
+      "district": "Ludhiana",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 2004,
+      "aicte_code": "5-2027141373"
+    },
+    {
+      "id": "INST_144",
+      "name": "Kongu Polytechnic, Kurnool",
+      "state": "Andhra Pradesh",
+      "district": "Kurnool",
+      "type": "Private",
+      "approval_status": "Under Review",
+      "year_established": 1973,
+      "aicte_code": "8-2899877488"
+    },
+    {
+      "id": "INST_145",
+      "name": "Government College of Engineering, Adilabad",
+      "state": "Telangana",
+      "district": "Adilabad",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1966,
+      "aicte_code": "3-9354171104"
+    },
+    {
+      "id": "INST_146",
+      "name": "RV Engineering College, Vellore",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1978,
+      "aicte_code": "4-2229433583"
+    },
+    {
+      "id": "INST_147",
+      "name": "Thiagarajar Institute of Engineering and Technology, Hubballi",
+      "state": "Karnataka",
+      "district": "Hubballi",
+      "type": "Private",
+      "approval_status": "Approved",
+      "year_established": 1980,
+      "aicte_code": "1-4134422897"
+    },
+    {
+      "id": "INST_148",
+      "name": "National Institute of Technology, Kolhapur",
+      "state": "Maharashtra",
+      "district": "Kolhapur",
+      "type": "Autonomous",
+      "approval_status": "Approved",
+      "year_established": 2015,
+      "aicte_code": "3-1697650245"
+    },
+    {
+      "id": "INST_149",
+      "name": "Government College of Engineering, Vadodara",
+      "state": "Gujarat",
+      "district": "Vadodara",
+      "type": "Govt",
+      "approval_status": "Approved",
+      "year_established": 1957,
+      "aicte_code": "5-5269109262"
+    }
+  ]
+}
