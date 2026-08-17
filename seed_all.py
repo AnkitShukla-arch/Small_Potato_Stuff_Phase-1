@@ -25,12 +25,13 @@ from seed.conflicts_log import reset as reset_conflicts
 CONFLICTS_PATH = PROJECT_ROOT / "conflicts_seeded.json"
 
 STEPS = [
-    ("registry  ", ["-m", "seed.generate_registry"]),
-    ("legacy_csv", ["-m", "seed.generate_legacy_csv"]),
-    ("mysql     ", ["-m", "seed.mysql_seed"]),
-    ("pg_courses", ["-m", "seed.postgres_courses_seed"]),
-    ("pg_faculty", ["-m", "seed.postgres_faculty_seed"]),
-    ("mongo     ", ["-m", "seed.mongo_seed"]),
+    ("registry     ", ["-m", "seed.generate_registry"]),
+    ("legacy_csv   ", ["-m", "seed.generate_legacy_csv"]),
+    ("internships  ", ["-m", "seed.generate_internships"]),
+    ("mysql        ", ["-m", "seed.mysql_seed"]),
+    ("pg_courses   ", ["-m", "seed.postgres_courses_seed"]),
+    ("pg_faculty   ", ["-m", "seed.postgres_faculty_seed"]),
+    ("mongo        ", ["-m", "seed.mongo_seed"]),
 ]
 
 
@@ -134,6 +135,9 @@ def _summary() -> None:
         col = "Institute_Name" if "Institute_Name" in df.columns else df.columns[0]
         csv_names += [str(x) for x in df[col].dropna().tolist()]
 
+    internships_path = PROJECT_ROOT / "data" / "internships.csv"
+    internships_rows = len(pd.read_csv(internships_path, dtype=str)) if internships_path.exists() else 0
+
     # --- planted-issue counts from ground truth ---
     conflicts = json.loads(CONFLICTS_PATH.read_text(encoding="utf-8"))
     cc = len(conflicts["cross_source_conflicts"])
@@ -141,7 +145,7 @@ def _summary() -> None:
     orp = len(conflicts["orphaned_records"])
 
     print("\n" + "=" * 72)
-    print(" FINAL SUMMARY — 5 fragmented sources, seeded & verified")
+    print(" FINAL SUMMARY — 5 fragmented sources + 1 clean dataset, seeded & verified")
     print("=" * 72)
     print(f" {'source':<28}{'tech':<12}{'rows':>7}{'distinct names':>16}{'~registry match':>16}")
     print("-" * 72)
@@ -151,11 +155,12 @@ def _summary() -> None:
     print(f" {'4. scholarships (Mongo)':<28}{'Mongo 7':<12}{mongo_docs:>7}{len(set(mongo_names)):>16}{overlap(mongo_names):>16}")
     for f, c in csv_counts.items():
         print(f" {'5. ' + f:<28}{'CSV':<12}{c:>7}{'':>16}{'':>16}")
+    print(f" {'6. internships.csv':<28}{'CSV':<12}{internships_rows:>7}{'':>16}{'':>16}")
     print("-" * 72)
     print(f" Planted issues (ground truth in conflicts_seeded.json):")
     print(f"   cross_source_conflicts   : {cc}")
-    print(f"   within_source_duplicates : {wd}   (mysql 9, pg_courses 12, mongo 6)")
-    print(f"   orphaned_records         : {orp}   (faculty 7, pg_courses 3, legacy-only 6)")
+    print(f"   within_source_duplicates : {wd}   (mysql 18, pg_courses 24, mongo 12)")
+    print(f"   orphaned_records         : {orp}   (faculty 14, pg_courses 6, legacy-only 12)")
     print("=" * 72)
 
 
@@ -166,7 +171,7 @@ def main() -> int:
     if not ok:
         return 1
     _summary()
-    print("\nAll 5 sources seeded. See README.md for how to manage each database.")
+    print("\nAll 6 datasets seeded. See README.md for how to manage each database.")
     return 0
 
 
